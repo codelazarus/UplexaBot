@@ -1,0 +1,8 @@
+C:\Users\Dave\source\repos\UplexaBot\obj\Release\netcoreapp3.1\PubTmp\Out\app_data\Jobs\Continuous\UplexaBot\Settings.job
+C:\Users\Dave\source\repos\UplexaBot\obj\Release\netcoreapp3.1\PubTmp\Out\app_data\Jobs\Continuous\UplexaBot\UplexaBot.exe
+C:\Users\Dave\source\repos\UplexaBot\obj\Release\netcoreapp3.1\PubTmp\Out\app_data\Jobs\Continuous\UplexaBot\UplexaBot.dll
+C:\Users\Dave\source\repos\UplexaBot\obj\Release\netcoreapp3.1\PubTmp\Out\app_data\Jobs\Continuous\UplexaBot\UplexaBot.deps.json
+C:\Users\Dave\source\repos\UplexaBot\obj\Release\netcoreapp3.1\PubTmp\Out\app_data\Jobs\Continuous\UplexaBot\UplexaBot.runtimeconfig.json
+C:\Users\Dave\source\repos\UplexaBot\obj\Release\netcoreapp3.1\PubTmp\Out\app_data\Jobs\Continuous\UplexaBot\UplexaBot.pdb
+C:\Users\Dave\source\repos\UplexaBot\obj\Release\netcoreapp3.1\PubTmp\Out\app_data\Jobs\Continuous\UplexaBot\Newtonsoft.Json.dll
+C:\Users\Dave\source\repos\UplexaBot\obj\Release\netcoreapp3.1\PubTmp\Out\app_data\Jobs\Continuous\UplexaBot\Telegram.Bot.dll
