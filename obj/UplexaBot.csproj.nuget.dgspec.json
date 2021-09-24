@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dave\\source\\repos\\UplexaBot\\UplexaBot.csproj": {}
+    "C:\\Users\\Dave\\Documents\\GitHub\\UplexaBot\\UplexaBot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dave\\source\\repos\\UplexaBot\\UplexaBot.csproj": {
+    "C:\\Users\\Dave\\Documents\\GitHub\\UplexaBot\\UplexaBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dave\\source\\repos\\UplexaBot\\UplexaBot.csproj",
+        "projectUniqueName": "C:\\Users\\Dave\\Documents\\GitHub\\UplexaBot\\UplexaBot.csproj",
         "projectName": "UplexaBot",
-        "projectPath": "C:\\Users\\Dave\\source\\repos\\UplexaBot\\UplexaBot.csproj",
+        "projectPath": "C:\\Users\\Dave\\Documents\\GitHub\\UplexaBot\\UplexaBot.csproj",
         "packagesPath": "C:\\Users\\Dave\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dave\\source\\repos\\UplexaBot\\obj\\",
+        "outputPath": "C:\\Users\\Dave\\Documents\\GitHub\\UplexaBot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dave\\AppData\\Roaming\\NuGet\\NuGet.Config",

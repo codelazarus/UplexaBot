@@ -1,0 +1,14 @@
+C:\Users\Dave\Documents\UplexaBot\Settings.job
+C:\Users\Dave\Documents\UplexaBot\UplexaBot.exe
+C:\Users\Dave\Documents\UplexaBot\UplexaBot.dll
+C:\Users\Dave\Documents\UplexaBot\UplexaBot.deps.json
+C:\Users\Dave\Documents\UplexaBot\UplexaBot.runtimeconfig.json
+C:\Users\Dave\Documents\UplexaBot\UplexaBot.pdb
+C:\Users\Dave\Documents\UplexaBot\FubarCoder.RestSharp.Portable.Core.dll
+C:\Users\Dave\Documents\UplexaBot\FubarCoder.RestSharp.Portable.HttpClient.dll
+C:\Users\Dave\Documents\UplexaBot\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Dave\Documents\UplexaBot\Microsoft.Extensions.Primitives.dll
+C:\Users\Dave\Documents\UplexaBot\Microsoft.Net.Http.Headers.dll
+C:\Users\Dave\Documents\UplexaBot\Newtonsoft.Json.dll
+C:\Users\Dave\Documents\UplexaBot\NoobsMuc.Coinmarketcap.Client.dll
+C:\Users\Dave\Documents\UplexaBot\Telegram.Bot.dll

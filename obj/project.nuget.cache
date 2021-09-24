@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UxhY5ZU/dL42KOcDH2GS9d+a8iFtPMPdWHhLZLjGTnvFjKTSvQCWTfXNrX0c0jz4EgAvAFME+B0DmDCB4GpT2A==",
+  "dgSpecHash": "TBS1NSd0edz6xH5/9I5uwJgZ7v18A+eOYBJIEgBohGhpJ8jJv13/AIt5k8TpZFS0djvDKyGgeS3ajjgTPip8BA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dave\\source\\repos\\UplexaBot\\UplexaBot.csproj",
+  "projectFilePath": "C:\\Users\\Dave\\Documents\\GitHub\\UplexaBot\\UplexaBot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dave\\.nuget\\packages\\fubarcoder.restsharp.portable.core\\4.0.8\\fubarcoder.restsharp.portable.core.4.0.8.nupkg.sha512",
     "C:\\Users\\Dave\\.nuget\\packages\\fubarcoder.restsharp.portable.httpclient\\4.0.8\\fubarcoder.restsharp.portable.httpclient.4.0.8.nupkg.sha512",
