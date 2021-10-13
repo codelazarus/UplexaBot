@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "UplexaBot/1.0.0": {
+      "UplexaBot/1.1.0": {
         "dependencies": {
           "Microsoft.Web.WebJobs.Publish": "2.0.0",
           "NoobsMuc.Coinmarketcap.Client": "2.1.1",
@@ -877,7 +877,7 @@
     }
   },
   "libraries": {
-    "UplexaBot/1.0.0": {
+    "UplexaBot/1.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

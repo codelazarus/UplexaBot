@@ -7,9 +7,9 @@ namespace UplexaBot
 {
     class Program
     {
-        static TelegramBotClient bot = new TelegramBotClient("API_TOKEN");
+        static TelegramBotClient bot = new TelegramBotClient("2036722940:AAGUuMMbKqAlv5cuyrGWfpkiZMCJwgzsXwA");
 
-        private static string API_KEY = "API_KEY";
+        private static string API_KEY = "43348147-32a2-4328-b64b-bd6e6267cdfc";
 
         static void Main(string[] args)
         {
@@ -21,44 +21,34 @@ namespace UplexaBot
 
         private static void Bot_OnMessage(object sender, Telegram.Bot.Args.MessageEventArgs e)
         {
-
-            switch (e.Message.Text)
+            if (e.Message.Text != null)
             {
-                case "/price":
-                    bot.SendTextMessageAsync(e.Message.Chat.Id, Uplexa.GetPrice());
-                    break;
+                if (e.Message.Text.StartsWith("/"))
+                {
+                    if(e.Message.Text.Contains("/price"))
+                        bot.SendTextMessageAsync(e.Message.Chat.Id, Uplexa.GetPrice());
 
-                case "/donate":
-                    bot.SendTextMessageAsync(e.Message.Chat.Id, Uplexa.Donate());
-                    break;
+                    if(e.Message.Text.Contains("/donate"))
+                        bot.SendTextMessageAsync(e.Message.Chat.Id, Uplexa.Donate());
 
-                case "/exchanges":
-                    bot.SendTextMessageAsync(e.Message.Chat.Id, Uplexa.GetExchanges());
-                    break;
-                
-                case "/max_supply":
-                    bot.SendTextMessageAsync(e.Message.Chat.Id, Uplexa.MaxSupply());
-                    break;
+                    if (e.Message.Text.Contains("/exchanges"))
+                        bot.SendTextMessageAsync(e.Message.Chat.Id, Uplexa.GetExchanges());
 
-                case "/volume":
-                    bot.SendTextMessageAsync(e.Message.Chat.Id, Uplexa.Volume());
-                    break;
+                    if (e.Message.Text.Contains("/max_supply"))
+                        bot.SendTextMessageAsync(e.Message.Chat.Id, Uplexa.MaxSupply());
 
-                case "/whitepaper":
-                    bot.SendTextMessageAsync(e.Message.Chat.Id, Uplexa.WhitePaper());
-                    break;
+                    if (e.Message.Text.Contains("/volume"))
+                        bot.SendTextMessageAsync(e.Message.Chat.Id, Uplexa.Volume());
 
-                case "/android_mining_tutorial":
-                    bot.SendTextMessageAsync(e.Message.Chat.Id, "https://youtu.be/2qMDTb562L8");
-                    break;
-                
-                case "/pc_mining_tutorial":
-                    bot.SendTextMessageAsync(e.Message.Chat.Id, "https://www.youtube.com/watch?v=1EPLoMkUAhQ");
-                    break;
-                
-                default:
-                    bot.SendTextMessageAsync(e.Message.Chat.Id, "Invalid command");
-                    break;
+                    if(e.Message.Text.Contains("/whitepaper"))
+                        bot.SendTextMessageAsync(e.Message.Chat.Id, Uplexa.WhitePaper());
+
+                    if(e.Message.Text.Contains("/android_mining_tutorial"))
+                        bot.SendTextMessageAsync(e.Message.Chat.Id, "https://youtu.be/2qMDTb562L8");
+
+                    if (e.Message.Text.Contains("/pc_mining_tutorial"))
+                        bot.SendTextMessageAsync(e.Message.Chat.Id, "https://www.youtube.com/watch?v=1EPLoMkUAhQ");
+                }
             }
         }
 
