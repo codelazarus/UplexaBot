@@ -30,7 +30,6 @@ C:\Users\Dave\Documents\GitHub\UplexaBot\bin\Release\netcoreapp3.1\Microsoft.Net
 C:\Users\Dave\Documents\GitHub\UplexaBot\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\Dave\Documents\GitHub\UplexaBot\bin\Release\netcoreapp3.1\NoobsMuc.Coinmarketcap.Client.dll
 C:\Users\Dave\Documents\GitHub\UplexaBot\bin\Release\netcoreapp3.1\Telegram.Bot.dll
-C:\Users\Dave\Documents\GitHub\UplexaBot\obj\Release\netcoreapp3.1\UplexaBot.csproj.AssemblyReference.cache
 C:\Users\Dave\Documents\GitHub\UplexaBot\obj\Release\netcoreapp3.1\UplexaBot.AssemblyInfoInputs.cache
 C:\Users\Dave\Documents\GitHub\UplexaBot\obj\Release\netcoreapp3.1\UplexaBot.AssemblyInfo.cs
 C:\Users\Dave\Documents\GitHub\UplexaBot\obj\Release\netcoreapp3.1\UplexaBot.csproj.CoreCompileInputs.cache
@@ -38,7 +37,3 @@ C:\Users\Dave\Documents\GitHub\UplexaBot\obj\Release\netcoreapp3.1\UplexaBot.csp
 C:\Users\Dave\Documents\GitHub\UplexaBot\obj\Release\netcoreapp3.1\UplexaBot.dll
 C:\Users\Dave\Documents\GitHub\UplexaBot\obj\Release\netcoreapp3.1\UplexaBot.pdb
 C:\Users\Dave\Documents\GitHub\UplexaBot\obj\Release\netcoreapp3.1\UplexaBot.genruntimeconfig.cache
-C:\Users\Dave\Documents\GitHub\UplexaBot\bin\Release\netcoreapp3.1\UplexaBot.dll.manifest
-C:\Users\Dave\Documents\GitHub\UplexaBot\bin\Release\netcoreapp3.1\UplexaBot.application
-C:\Users\Dave\Documents\GitHub\UplexaBot\obj\Release\netcoreapp3.1\UplexaBot.dll.manifest
-C:\Users\Dave\Documents\GitHub\UplexaBot\obj\Release\netcoreapp3.1\UplexaBot.application

@@ -25,8 +25,11 @@ namespace UplexaBot
             {
                 if (e.Message.Text.StartsWith("/"))
                 {
-                    if(e.Message.Text.Contains("/price"))
-                        bot.SendTextMessageAsync(e.Message.Chat.Id, Uplexa.GetPrice());
+                    ICoinmarketcapClient client = new CoinmarketcapClient(API_KEY);
+                    Currency currency = client.GetCurrencyBySlug("uplexa");
+
+                    if (e.Message.Text.Contains("/price"))
+                        bot.SendTextMessageAsync(e.Message.Chat.Id, "$" + currency.Price.ToString("N6"));
 
                     if(e.Message.Text.Contains("/donate"))
                         bot.SendTextMessageAsync(e.Message.Chat.Id, Uplexa.Donate());
@@ -38,7 +41,7 @@ namespace UplexaBot
                         bot.SendTextMessageAsync(e.Message.Chat.Id, Uplexa.MaxSupply());
 
                     if (e.Message.Text.Contains("/volume"))
-                        bot.SendTextMessageAsync(e.Message.Chat.Id, Uplexa.Volume());
+                        bot.SendTextMessageAsync(e.Message.Chat.Id, "24h Volume: $" + currency.Volume24hUsd.ToString("N2"));
 
                     if(e.Message.Text.Contains("/whitepaper"))
                         bot.SendTextMessageAsync(e.Message.Chat.Id, Uplexa.WhitePaper());
@@ -48,6 +51,8 @@ namespace UplexaBot
 
                     if (e.Message.Text.Contains("/pc_mining_tutorial"))
                         bot.SendTextMessageAsync(e.Message.Chat.Id, "https://www.youtube.com/watch?v=1EPLoMkUAhQ");
+                    if (e.Message.Text.Contains("/support_uplexa"))
+                        bot.SendTextMessageAsync(e.Message.Chat.Id, Uplexa.SupportUplexa());
                 }
             }
         }
@@ -66,9 +71,7 @@ namespace UplexaBot
             {
                 return "TradeOgre - LTC/UPX - https://tradeogre.com/exchange/LTC-UPX \n" +
                        "Graviex - BTC/UPX - https://graviex.net/markets/upxbtc \n" +
-                       "STEX - ETH/UPX - https://app.stex.com/en/trading/pair/ETH/UPX/1D \n" +
-                       "PancakeSwap\n" +
-                       "Uniswap - https://app.uniswap.org/#/swap?outputCurrency=0xc3d91ffdf44eafc32a9e4489a4efe188489fc183&inputCurrency=ETH&use=v2";
+                       "STEX - ETH/UPX - https://app.stex.com/en/trading/pair/ETH/UPX/1D";
             }
             public static string Donate()
             {
@@ -87,6 +90,32 @@ namespace UplexaBot
             public static string WhitePaper()
             {
                 return "Link to Whitepaper:\nhttps://uplexa.com/media/uPlexa-Whitepaper-EN.pdf";
+            }
+
+            public static string SupportUplexa()
+            { 
+                return @"🚨DAILY TASKS FOR UPLEXA KINGS! 
+
+                https://coinmarketcap.com/currencies/uplexa/
+                ✅Scroll down and VOTE GOOD
+                ✅Add UPLEXA to your Watchlist
+
+                https://www.coingecko.com/en/coins/uplexa
+                ✅VOTE GOOD
+
+                https://www.google.com/search?q=uplexa+upx
+                ✅CLICK FOR ALGORITHM
+
+                https://m.youtube.com/results?sp=mAEA&search_query=uplexa+upx
+                ✅CLICK FOR ALGORITHM
+
+                https://uplexa.com
+                ✅CLICK FOR ALGORITHM
+
+                ✅Go to Twitter search for #uplexa and $UPX like and retweet last 10 comments 
+
+
+                🚀 🚀 🚀 ⚔️ ⚔️ ⚔️ 🚀 🚀 🚀";
             }
         }
     }

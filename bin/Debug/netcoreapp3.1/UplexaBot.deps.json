@@ -6,9 +6,8 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "UplexaBot/1.0.1": {
+      "UplexaBot/2.0": {
         "dependencies": {
-          "Microsoft.Web.WebJobs.Publish": "2.0.0",
           "NoobsMuc.Coinmarketcap.Client": "2.1.1",
           "Telegram.Bot": "16.0.2"
         },
@@ -81,7 +80,6 @@
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
-      "Microsoft.Web.WebJobs.Publish/2.0.0": {},
       "Microsoft.Win32.Primitives/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -877,7 +875,7 @@
     }
   },
   "libraries": {
-    "UplexaBot/1.0.1": {
+    "UplexaBot/2.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -930,13 +928,6 @@
       "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
-    },
-    "Microsoft.Web.WebJobs.Publish/2.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-FPifyNntXAO0W1gouMs2LmVRt8tZXaC9VO8paZq8QpL7CLOb00l1gdI9mxaXqT7yraUuKNHFXG6rTeU39kbUJQ==",
-      "path": "microsoft.web.webjobs.publish/2.0.0",
-      "hashPath": "microsoft.web.webjobs.publish.2.0.0.nupkg.sha512"
     },
     "Microsoft.Win32.Primitives/4.3.0": {
       "type": "package",

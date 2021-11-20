@@ -88,12 +88,6 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.Web.WebJobs.Publish/2.0.0": {
-        "type": "package",
-        "build": {
-          "build/Microsoft.Web.WebJobs.Publish.targets": {}
-        }
-      },
       "Microsoft.Win32.Primitives/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1623,22 +1617,6 @@
         "microsoft.netcore.targets.1.1.0.nupkg.sha512",
         "microsoft.netcore.targets.nuspec",
         "runtime.json"
-      ]
-    },
-    "Microsoft.Web.WebJobs.Publish/2.0.0": {
-      "sha512": "FPifyNntXAO0W1gouMs2LmVRt8tZXaC9VO8paZq8QpL7CLOb00l1gdI9mxaXqT7yraUuKNHFXG6rTeU39kbUJQ==",
-      "type": "package",
-      "path": "microsoft.web.webjobs.publish/2.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/Microsoft.Web.WebJobs.Publish.Tasks.dll",
-        "build/Microsoft.Web.WebJobs.Publish.targets",
-        "build/Newtonsoft.Json.dll",
-        "build/webjobs.console.targets",
-        "build/webjobs.wap.targets",
-        "microsoft.web.webjobs.publish.2.0.0.nupkg.sha512",
-        "microsoft.web.webjobs.publish.nuspec"
       ]
     },
     "Microsoft.Win32.Primitives/4.3.0": {
@@ -5437,7 +5415,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.Web.WebJobs.Publish >= 2.0.0",
       "NoobsMuc.Coinmarketcap.Client >= 2.1.1",
       "Telegram.Bot >= 16.0.2"
     ]
@@ -5446,7 +5423,7 @@
     "C:\\Users\\Dave\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.1.0",
+    "version": "2.1.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\Dave\\Documents\\GitHub\\UplexaBot\\UplexaBot.csproj",
       "projectName": "UplexaBot",
@@ -5481,10 +5458,6 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
-          "Microsoft.Web.WebJobs.Publish": {
-            "target": "Package",
-            "version": "[2.0.0, )"
-          },
           "NoobsMuc.Coinmarketcap.Client": {
             "target": "Package",
             "version": "[2.1.1, )"
